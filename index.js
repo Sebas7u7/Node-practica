@@ -122,6 +122,7 @@ const server = http.createServer((req, res) => {
         res.statusCode = 200;
         rta += '<h1>Bienvenidos a NodeJS</h1>';
         rta += '<h2>Este es el inicio de nuestro sitio</h2>';
+        rta += `<a href="https://github.com/Cr15t14S/api1.git" target="_blank">Repositorio</a><br>`;
         rta += `<a href="/">Volver al inicio</a>`;
     } else {
         res.statusCode = 404;
