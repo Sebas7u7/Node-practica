@@ -1,13 +1,22 @@
 {
   "name": "api1",
   "version": "1.0.0",
-  "description": "Proyecto practico con NodeJS",
+  "description": "Proyecto de NodeJS",
   "main": "index.js",
   "scripts": {
     "start": "node --watch index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Cristian Romero y Juan Prada",
+  "repository": {
+    "type": "git",
+    "url": "sebasm@api1"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "Componentes"
+  ],
+  "author": "Sebastian Mahecha y Daniela Huertas",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.5.0"
