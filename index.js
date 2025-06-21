@@ -111,7 +111,7 @@ const server = http.createServer((req, res) => {
                     <p>Visita otras secciones del sitio como contacto e inicio.</p>
                 </div>
             </div>
-            <a href="/inicio">Ir a Inicio</a>
+            <a href="/inicio">Adivinar el numero</a>
             <a href="/contacto">Contacto</a>
         `;
     } else if (req.url === '/contacto') {
